@@ -1,0 +1,51 @@
+.imageprincipal {
+    position: absolute;
+    width: 35%;
+    top: 8vw;
+    right: 13vw;
+}
+
+h2 {
+    font-size: 80px;
+    color: #ffb100;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+span {
+    color: #eee;
+    font-size: 10px;
+}
+
+section {
+    position: relative;
+    background: #131313b2;
+    padding: 50px;
+    padding-left: 5vw;
+    padding-right: 10vw;
+    height: 38vh;
+}
+
+.top {
+    margin: 5vh 8vw;
+    width: 70vw;
+}
+
+button {
+    position: absolute;
+    background: #ffb100;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+img.hotprice {
+    position: absolute;
+    width: 20%;
+    top: 0;
+    margin: 10vh 78vw;
+    z-index: 1;
+}

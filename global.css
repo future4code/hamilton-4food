@@ -22,8 +22,10 @@ a{
     background-color: black;
 }
 
+/* rgb(239,132,58); */
+
 header{
-    background-color: rgb(239,132,58);
+    background-color: #ffb100;
     min-height: 8vh;
     display:flex;
     justify-content: space-between;
