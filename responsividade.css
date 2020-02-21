@@ -33,14 +33,15 @@ header{
     flex-wrap:wrap;
 }
 
-nav{
+ul{
     display:flex;
     justify-content:space-between;
     align-items:center;
 }
 
-nav p{
+nav li{
     margin:10px;
+    list-style: none;
 }
 
 #main{
@@ -81,10 +82,12 @@ footer{
     min-height: 8vh;
     color:white;
     margin-top:10px;
+    width: 100%;
     display:flex;
     justify-content: center;
     align-items: center;
 }
+
 
 @media screen and (max-width:500px){
 
