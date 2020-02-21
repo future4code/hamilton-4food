@@ -1,16 +1,17 @@
 * {
     margin: 0;
     padding: 0;
+    color:white;
 }
 
 section h1{
-    color: #000000;
+    color: white;
     text-align: center;
 }
 
 section p, h2, h3 {
     margin: 1vw 10vw;
-    color: black;
+    color:white;
     text-align: center;
 }
 
@@ -30,7 +31,7 @@ input {
 }
 
 button {
-    color: black;
+    color:white;
     margin-left: 43.8vw;
     padding: 7px;
 }
