@@ -12,24 +12,25 @@ h2 {
 
 h3 {
     font-size: 30px;
+    margin-bottom: 15px;
 }
 
-span {
+article {
     color: #eee;
     font-size: 10px;
 }
 
-section {
+nav {
     position: relative;
-    background: #131313b2;
+    background: #222;
     padding: 50px;
     padding-left: 5vw;
     padding-right: 10vw;
     height: 38vh;
 }
 
-.top {
-    margin: 5vh 8vw;
+.layout_principal {
+    margin: 12vh 8vw;
     width: 70vw;
 }
 
@@ -48,4 +49,42 @@ img.hotprice {
     top: 0;
     margin: 10vh 78vw;
     z-index: 1;
+}
+section, .textorodape {
+    padding-left: 8vw;
+    padding-right: 7vw;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    max-width: 5vw auto;
+}
+
+section  div a{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid saddlebrown;
+}
+
+section div img {
+    width: 50%;
+}
+
+section div h1 {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin-bottom: 1vh;
+}
+
+.legend {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin-top: 1vh;
 }

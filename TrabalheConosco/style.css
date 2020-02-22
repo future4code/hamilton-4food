@@ -5,14 +5,20 @@
 }
 
 section h1{
-    color: white;
+    font-size: 45px;
+    color: #ffb100;
     text-align: center;
+    margin-top: 7vw;
 }
 
 section p, h2, h3 {
     margin: 1vw 10vw;
     color:white;
     text-align: center;
+}
+
+section h2 {
+    color: #af7b01;
 }
 
 section {
@@ -31,7 +37,7 @@ input {
 }
 
 button {
-    color:white;
+    color: black;
     margin-left: 43.8vw;
     padding: 7px;
 }
