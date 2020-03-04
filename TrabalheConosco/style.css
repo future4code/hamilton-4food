@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    color:white;
+}
+
+section h1{
+    font-size: 45px;
+    color: #ffb100;
+    text-align: center;
+    margin-top: 7vw;
+}
+
+section p, h2, h3 {
+    margin: 1vw 10vw;
+    color:white;
+    text-align: center;
+}
+
+section h2 {
+    color: #af7b01;
+}
+
+section {
+    padding: 15px 35px;
+}
+
+form {
+    margin: 5vh auto;
+}
+
+input {
+    display: block;
+    margin: 15px auto;
+    padding: 7px;
+    width: 25vw;
+}
+
+button {
+    color: black;
+    margin-left: 43.8vw;
+    padding: 7px;
+}
+
